@@ -37,7 +37,7 @@ Requisitos previos: [Node.js](https://nodejs.org/) (v18+) y npm instalados.
 
 ```bash
 # 1. Clonar el repositorio
-git clone <URL-del-repositorio>
+git clone <https://github.com/ArtiedaAlessandroURP/FoodApp.git>
 cd FoodApp
 
 # 2. Instalar dependencias
