@@ -1,0 +1,36 @@
+{
+  "name": "foodapp",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@sentry/react-native": "~7.11.0",
+    "expo": "~56.0.12",
+    "expo-constants": "~56.0.14",
+    "expo-linking": "~56.0.14",
+    "expo-router": "~56.2.11",
+    "expo-status-bar": "~56.0.4",
+    "nativewind": "^4.2.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "4.25.2",
+    "react-native-web": "^0.21.2",
+    "react-native-worklets": "0.8.3",
+    "tailwindcss": "3.4.17",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "private": true
+}
