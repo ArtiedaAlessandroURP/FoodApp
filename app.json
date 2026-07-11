@@ -6,9 +6,10 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
+   "ios": {
+  "supportsTablet": true,
+  "bundleIdentifier": "com.aleartisan10.foodapp"
+},
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -34,6 +35,13 @@
         }
       ],
       "@sentry/react-native"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "50a55ac4-e63f-43ee-900f-8266fe130da2"
+      }
+    },
+    "owner": "aleartisan10"
   }
 }
